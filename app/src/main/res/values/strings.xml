@@ -1,0 +1,58 @@
+<resources>
+    <string name="app_name">My Adat Connect</string>
+
+    <string name="name">ग्राहकाचे नाव :</string>
+    <string name="contact_no">मोबाईल नंबर :</string>
+    <string name="date">दिनांक :</string>
+
+    <string name="add_mal">नवीन माल आद्यवत करा</string>
+    <string name="malache_desc">मालाचे वर्णन</string>
+    <string name="nag">नग</string>
+    <string name="vajan">वजन</string>
+    <string name="dar">दर</string>
+    <string name="rakkam">रक्कम</string>
+    <string name="rakkam_r">रक्कम रुपये</string>
+
+
+    <string name="add_it">नवीन जोडा</string>
+    <string name="comission">खर्च</string>
+    <string name="takke">टक्के</string>
+    <string name="rupaye">रुपये</string>
+
+    <string-array name="takke_array">
+        <item>टक्के</item>
+        <item>रुपये</item>
+    </string-array>
+
+    <string name="ekun">एकूण</string>
+    <string name="kharchevaja">खर्च वजा</string>
+    <string name="magilbaki">मागील बाकी</string>
+    <string name="ekunDene">एकूण देणे</string>
+    <string name="ekunDile">एकूण दिले</string>
+    <string name="jama">जमा</string>
+    <string name="ekun_baki">एकूण बाकी</string>
+    <string name="shillak">शिल्लक</string>
+
+    <string name="aadat">आडत</string>
+    <string name="tolai">तोलाई</string>
+    <string name="hamali">हमाली</string>
+    <string name="kameti">कमेटी</string>
+    <string name="uchal">उचल</string>
+    <string name="bhade">भाडे</string>
+    <string name="badla">बदला</string>
+
+    <string name="kharedi">खरेदी</string>
+    <string name="vikri">विक्री</string>
+    <string name="search">सर्च</string>
+    <string name="stock">उर्वरित माल</string>
+    <string name="kra">क्र</string>
+
+    <string name="history">एकूण खरेदी</string>
+    <string name="ekunVikri">एकूण विक्री</string>
+
+
+    <string name="rupee">₹</string>
+    <string name="dialog_error_msg">कृपया संपूर्ण रिक्त जागा भरा.</string>
+
+
+</resources>

@@ -1,0 +1,251 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:layout_margin="10dp"
+    android:padding="5dp"
+    android:background="@drawable/history_adapter_card"
+    android:layout_height="wrap_content">
+
+    <TextView
+        android:id="@+id/tvDate"
+        android:text="sdasd"
+        android:textColor="@color/black"
+        android:gravity="end"
+        android:layout_marginEnd="10dp"
+        android:textSize="13dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+    <TextView
+        android:id="@+id/tvUserNameAndContactDetails"
+        android:layout_width="match_parent"
+        android:layout_margin="10dp"
+        android:textSize="15dp"
+        android:textColor="@color/black"
+        android:textStyle="bold"
+        android:layout_height="wrap_content"/>
+
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:id="@+id/ekun"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:text="Ekun Duile"
+            android:textColor="@color/black"
+            android:gravity="center"
+            android:textSize="16dp"
+            android:ellipsize="marquee"
+            android:layout_height="match_parent"/>
+
+        <TextView
+            android:id="@+id/ekunDile"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:text="Ekun Duile"
+            android:textColor="@color/black"
+            android:gravity="center"
+            android:textSize="16dp"
+            android:ellipsize="marquee"
+            android:layout_height="match_parent"/>
+
+        <TextView
+            android:id="@+id/ekunBaki"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:text="Ekun Duile"
+            android:textColor="@color/black"
+            android:gravity="center"
+            android:textSize="16dp"
+            android:ellipsize="marquee"
+            android:layout_height="match_parent"/>
+
+
+    </LinearLayout>
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:id="@+id/btnShowMalInDetails"
+        android:text="पूर्ण मालाचे वर्णन पहा" />
+
+
+    <LinearLayout
+        android:id="@+id/rvShowMalDetails"
+        android:layout_width="match_parent"
+        android:visibility="gone"
+        android:orientation="vertical"
+        android:layout_marginStart="5dp"
+        android:layout_marginEnd="5dp"
+        android:layout_height="wrap_content">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_marginTop="10dp"
+            android:layout_marginBottom="10dp"
+            android:gravity="center"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="0.3"
+                android:textSize="16dp"
+                android:textStyle="bold"
+                android:textColor="#FF5722"
+                android:gravity="start"
+                android:text="@string/kra" />
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1.7"
+                android:textSize="16dp"
+                android:textStyle="bold"
+                android:textColor="#FF5722"
+                android:gravity="start"
+                android:text="@string/malache_desc" />
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="0.8"
+                android:textSize="16dp"
+                android:textStyle="bold"
+                android:textColor="#FF5722"
+                android:gravity="center"
+                android:text="@string/nag" />
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="0.7"
+                android:textSize="16dp"
+                android:textStyle="bold"
+                android:textColor="#FF5722"
+                android:gravity="center"
+                android:text="@string/vajan" />
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:textSize="16dp"
+                android:textStyle="bold"
+                android:textColor="#FF5722"
+                android:gravity="center"
+                android:text="@string/dar" />
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:gravity="right"
+                android:textSize="16dp"
+                android:textStyle="bold"
+                android:textColor="#FF5722"
+                android:layout_weight="1.2"
+                android:text="@string/rakkam" />
+        </LinearLayout>
+
+
+        <androidx.recyclerview.widget.RecyclerView
+            android:id="@+id/malList"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:orientation="horizontal"
+        android:layout_height="wrap_content">
+
+       <LinearLayout
+           android:id="@+id/editData"
+           android:layout_width="wrap_content"
+           android:orientation="vertical"
+           android:layout_weight="1"
+           android:gravity="center"
+           android:layout_height="wrap_content">
+
+           <ImageView
+               android:layout_width="50dp"
+               android:layout_height="50dp"
+               android:padding="13dp"
+               android:src="@drawable/ic_edit" />
+
+
+           <TextView
+               android:layout_width="match_parent"
+               android:layout_height="wrap_content"
+               android:gravity="center"
+               android:textStyle="bold"
+               android:textColor="#1A237E"
+               android:text="एडिट करा"
+               />
+
+
+       </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/deleteData"
+            android:layout_width="wrap_content"
+            android:orientation="vertical"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:layout_height="wrap_content">
+
+            <ImageView
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:padding="13dp"
+                android:src="@drawable/ic_delete" />
+
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textStyle="bold"
+                android:textColor="#BF360C"
+                android:gravity="center"
+                android:text="काढून टाका"
+                />
+
+
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:id="@+id/shareData"
+            android:layout_width="wrap_content"
+            android:orientation="vertical"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:layout_height="wrap_content">
+
+            <ImageView
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:padding="13dp"
+                android:src="@drawable/ic_share" />
+
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textStyle="bold"
+                android:textColor="#1A237E"
+                android:gravity="center"
+                android:text="सेंड करा" />
+
+
+        </LinearLayout>
+    </LinearLayout>
+
+
+
+</LinearLayout>
